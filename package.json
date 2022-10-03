@@ -1,0 +1,19 @@
+{
+  "name": "code-imp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "palindrome": "node palindrome.js",
+    "changeLatter": "node changeLatter.js",
+    "fazzfood": "node fazzfood.js",
+    "divideAndSort": "node divideAndSort.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^3.2.10"
+  }
+}
+
+
