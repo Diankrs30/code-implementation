@@ -6,7 +6,7 @@ const divideAndShort = (deretAngka) => {
     .split("0")
     .map((el) => el.split("").sort().join(""))
     .join("");
-  return parseInt(deret);
+  return Number(deret);     //ubah string menjadi integer dengan Number() atau parseInt()
 };
 
 console.log(divideAndShort(595656015946605));

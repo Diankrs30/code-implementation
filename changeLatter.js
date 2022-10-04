@@ -5,12 +5,11 @@ const changeLatter = (str) => {
   for (let i = 0; i < str.length; i++) {
     if (str[i] === "a") {
       result += "o";
-    } else {
-      result += str[i];
+      continue;
     }
+      result += str[i];
   }
     return result;
 };
 
 console.log(changeLatter("Jakarta"));
-
